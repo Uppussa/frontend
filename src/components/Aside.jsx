@@ -7,6 +7,7 @@ const Aside = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
+    <>
     <div className='bg-yellow-200'>
       <Button
         color="primary"
@@ -29,6 +30,11 @@ const Aside = () => {
         </OffcanvasBody>
       </Offcanvas>
     </div>
+   
+
+
+    </>
+    
   );
 }
 

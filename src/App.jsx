@@ -1,11 +1,12 @@
 import All from "./components/All"
+import Root from "./root"
 
 function App() {
 
 
   return (
     <>
-  <All/>
+ <Root />
     </>
   )
 }

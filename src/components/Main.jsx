@@ -3,6 +3,7 @@ import Time from '../assets/Time.svg'
 import Done1 from '../assets/Done1.svg'
 import close from '../assets/close.svg'
 import Add from '../assets/Add.svg'
+import BtnNewTask from './BtnNewTask'
 
 
 const Main = () => {
@@ -43,12 +44,7 @@ const Main = () => {
                         </div>
                         <span className="text-base text-gray-600">Work on a Challenge on devChallenges.io, learn TypeScript.</span>
                     </button>
-                    <button className="flex items-center justify-between p-4 w-full h-24 bg-orange-200 rounded-lg shadow transition duration-300 hover:bg-orange-300">
-                    <div className="bg-orange-200 w-10 h-10 flex items-center justify-center rounded-lg ">
-                            <img src={Add} className="object-contain w-full h-full" />
-                        </div>
-                        <span className="text-lg flex-1">Add new task</span>
-                    </button>
+                   <BtnNewTask/>
                 </div>
             </section>
         </main>
